@@ -1,0 +1,23 @@
+
+.wrap-login{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #eae7e7;
+}
+.login-form{
+  padding: 65px 45px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+.img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}

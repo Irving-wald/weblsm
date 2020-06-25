@@ -1,0 +1,26 @@
+<div class="wrap-login ">
+  <div class="login-form col-lg-3 col-sm-6 col-md-5 col-xs-12 mat-elevation-z8">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="container-fluid">
+        <p class="font-lg font-light center-text">Bienvenido</p>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-text">
+        <img src="assets/img/pp.jpg" alt="" width="50vw" height="50vh" class="img">
+        <form class="text-center" [formGroup]="loginForm">
+          <mat-form-field class="col-lg-12 col-md-12 col-xs-12">
+            <input matInput placeholder="Correo" type="text" name="Correo" required>
+          </mat-form-field>
+          <mat-form-field class="col-lg-12 col-md-12 col-xs-12">
+            <input matInput placeholder="Password" type="password" name="Password" required>
+          </mat-form-field>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-top">
+            <input type="submit" name="" value="Ingresar" class="submit-form" (click)="onClickSubmit()">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid center-text col-lg-12">
+    <span>WebLsm, Derechos Reservados 2020 © Aviso de privacidad</span>
+  </div>
+</div>
