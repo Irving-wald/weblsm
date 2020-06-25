@@ -1,0 +1,25 @@
+<div class="nav-bar">
+  <div class="nav-content">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 content-logo" (click)="toggle()">
+      <img src="assets/img/logo.png" alt="" width="130px" height="70px">
+    </div>
+    <div class="content-menu" (click)="toggle()">
+      <button mat-icon-button>
+        <mat-icon class="color-white">menu</mat-icon>
+      </button>
+    </div>
+    <div class="content-user" >
+      <span class="margin-text name color-white">WebLSM</span>
+      <button mat-icon-button [matMenuTriggerFor]="menu"><mat-icon class="color-white">account_circle</mat-icon></button>
+      <mat-menu #menu="matMenu">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+          <div class="profile-image img-menu mat-elevation-z15"></div>
+        </div>
+        <button mat-menu-item (click)="closeSession()">
+          <mat-icon>exit_to_app</mat-icon>
+          <span>Cerrar Sesión</span>
+        </button>
+      </mat-menu>
+    </div>
+  </div>
+</div>
