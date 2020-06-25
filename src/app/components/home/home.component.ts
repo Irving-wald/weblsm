@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  private menuVisible: Boolean = false;
+
   constructor() { }
 
   ngOnInit() {
   }
-
+  toggleMenu() { this.menuVisible = !this.menuVisible; }
 }

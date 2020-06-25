@@ -184,14 +184,13 @@ div.padding-left,mat-form-field.padding-left{
 }
 main.main-content{
   min-height: 100vh;
-  padding: 80px 2rem 3rem 2rem;
-  position: relative;
+  padding-top: 80px;
   min-width: 100vw;
 }
 
 @media (max-width: 768px) {
   main.main-content{
-    padding: 100px 2rem 3rem 2rem;
+    padding-top: 100px;
   }
   div.padding-left,mat-form-field.padding-left{
     padding-left: 0;
@@ -199,12 +198,12 @@ main.main-content{
 }
 @media (min-width: 992px) {
   main.main-content{
-    padding:100px 3rem 3rem 31rem;
+    padding-top:100px;
   }
 }
 @media (min-width: 1200px) {
   main.main-content{
-    padding: 100px 8rem 3rem 39rem;
+    padding-top: 100px;
   }
 }
 input[type="text"].input-form,input[type="password"].input-form{
